@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:active{
+    text-decoration-style: double;
+    color: indigo;
+    font-size: 49px;
+    
+}    
+a:hover{
+    text-decoration: underline;
+  
+}
+a:visited{
+
+}
+p{
+    font-size: 26px;
+}
+section{
+   display: flex;
+
+}
+div{
+    display: flex; flex-flow: column;
+    width: 500px;
+}
+body{
+    max-width: 1000px;
+    margin: 40px;
+    background-color: blanchedalmond;
+}
+footer{
+    background-color: rgba(253, 214, 155, 0.445);
+    padding: 0px 10px 20px 30px;
+    
+}
