@@ -1,12 +1,13 @@
 a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 a:active{
     text-decoration-style: double;
     color: indigo;
-    font-size: 49px;
+    
     
 }    
 a:hover{
@@ -26,14 +27,29 @@ section{
 div{
     display: flex; flex-flow: column;
     width: 500px;
+    border-radius: 20px;
+    background-color: #6e6622;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    color: #f0f0c2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     max-width: 1000px;
     margin: 40px;
     background-color: blanchedalmond;
+    
 }
+section{
+    padding-left: 15px;
+    margin-bottom: 0px;
+    /* padding: 40px; */
+    
+    }
 footer{
     background-color: rgba(253, 214, 155, 0.445);
     padding: 0px 10px 20px 30px;
-    
+    margin-top: 0px;
+    border-radius: 20px;
 }
