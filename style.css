@@ -1,24 +1,22 @@
-a{
-    text-decoration: none;
-    color: #f0f0c2;
-    /* color: white; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
 h1{
     text-align: center;
     font-size: 60px;
     color: #59443f;
 }
-a:active{
-    text-decoration-style: double;
-    color: indigo;
+a{
+    text-decoration: none;
+    color: #f0f0c2;
+    /* color: white; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+
     
     
-}    
 a:hover{
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 21px;
     color: white; 
 }
 a:visited{
@@ -28,17 +26,13 @@ p{
     font-size: 26px;
     color:#59443f;
 }
-section{
-   display: flex;
 
-}
 div{
     display: flex; flex-flow: column;
     width: 500px;
     border-radius: 20px;
     background-color: #6e6622;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding: 0px 0px 20px 10px;
     margin: 0px 0px 30px 10px;
     color: #e8e3d5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,6 +45,7 @@ body{
     padding-right: 40px;
 }
 section{
+    display: flex;
     padding-left: 15px;
     margin-bottom: 0px;
     /* padding: 40px; */
@@ -67,7 +62,7 @@ footer{
 button{
     padding-left: 10px;
     border-radius: 6px;
-    margin: 20px;
+    margin: 20px 20px 20px auto;
     padding-top: 10px;
     /* color: #382b02;
     background-color: wheat; */
@@ -75,7 +70,7 @@ button{
     background-color: #382b02;
     height: 70px;
     max-width: 100px;
-    font-size: 18px;
+    font-size: 20px;
 }
 button:hover{
     
@@ -84,3 +79,9 @@ button:hover{
 h2{
     /* color: #59443f; */
 } 
+.mobile{font-size: 20px;}
+
+@media(max-width: 960px) {
+    .mobile{font-size: 2em;}
+    button{font-size: 2em; height: 3em; max-width: 4em;}
+}
