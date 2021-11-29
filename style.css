@@ -86,7 +86,7 @@ h2{
 @media(max-width: 700px) {
     .mobile{font-size: 4em;}
     button{font-size: 3em; height: 3em; max-width: 4em;}
-    div{width: 700px}
+    div{width: 600px}
     section{flex-wrap: wrap;}
     a:hover{font-size: 1.1em;}
 }
